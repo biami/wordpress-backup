@@ -1,6 +1,7 @@
 Stage	Generic Task Description	Technical Task Description	Script								
 0	WordPress+MySQL/MariaDB FTP Backup	backup files and mysql database	run_command	"runcommand=mkdir ""dir""temp/backup/"							
 1	Download files via FTP	ftp download	ftp_download	"host=""wphost"""	"port=""wpport"""	"username=""wpuser"""	"password=""wppass"""	localdir=../../../temp/backup	"remotedir=""wpdir"""	filemask=*	download_filemask=*
+2	test | test											
 											
 p	wphost										
 p	wpport										
